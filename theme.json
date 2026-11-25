@@ -19,7 +19,6 @@
     "chat": "#141414",
     "members": "#131313",
     "stage": "#141414",
-    "raised": "#262626",
     "field": "#1d1d1d",
     "sunken": "#111111",
     "hover": "#242424",
@@ -265,7 +264,7 @@
       "border_colour": "#353535"
     },
     "tooltip": {
-      "border": 1,
+      "border": 2,
       "radius": 0,
       "border_colour": "#353535"
     }
@@ -447,13 +446,6 @@
         }
       ],
       "menu": [
-        {
-          "texture": "noise",
-          "colour": "#000000",
-          "opacity": 0.1
-        }
-      ],
-      "tooltip": [
         {
           "texture": "noise",
           "colour": "#000000",
@@ -736,7 +728,6 @@
         "chat": "#ebebeb",
         "members": "#e3e3e3",
         "stage": "#ebebeb",
-        "raised": "#d1d1d1",
         "field": "#dfdfdf",
         "sunken": "#d4d4d4",
         "hover": "#dddddd",
@@ -902,7 +893,6 @@
       "variants.dark.colours.chat": "#2e3440",
       "variants.dark.colours.members": "#272b35",
       "variants.dark.colours.stage": "#2e3440",
-      "variants.dark.colours.raised": "#3b4252",
       "variants.dark.colours.field": "#343b49",
       "variants.dark.colours.sunken": "#22262f",
       "variants.dark.colours.hover": "#3d424d",
@@ -966,7 +956,6 @@
       "variants.dark.colours.chat": "#1a1b26",
       "variants.dark.colours.members": "#16161d",
       "variants.dark.colours.stage": "#1a1b26",
-      "variants.dark.colours.raised": "#262a3b",
       "variants.dark.colours.field": "#202230",
       "variants.dark.colours.sunken": "#13131a",
       "variants.dark.colours.hover": "#2a2b35",
@@ -1030,7 +1019,6 @@
       "variants.dark.colours.chat": "#1e1e2e",
       "variants.dark.colours.members": "#181825",
       "variants.dark.colours.stage": "#1e1e2e",
-      "variants.dark.colours.raised": "#313244",
       "variants.dark.colours.field": "#282839",
       "variants.dark.colours.sunken": "#151520",
       "variants.dark.colours.hover": "#2e2e3d",
@@ -1094,7 +1082,6 @@
       "variants.dark.colours.chat": "#24273a",
       "variants.dark.colours.members": "#1e2030",
       "variants.dark.colours.stage": "#24273a",
-      "variants.dark.colours.raised": "#363a4f",
       "variants.dark.colours.field": "#2d3044",
       "variants.dark.colours.sunken": "#1b1c2a",
       "variants.dark.colours.hover": "#333648",
@@ -1158,7 +1145,6 @@
       "variants.dark.colours.chat": "#2c343a",
       "variants.dark.colours.members": "#232a2e",
       "variants.dark.colours.stage": "#2c343a",
-      "variants.dark.colours.raised": "#343f44",
       "variants.dark.colours.field": "#303a3f",
       "variants.dark.colours.sunken": "#1e2528",
       "variants.dark.colours.hover": "#3b4248",
@@ -1222,7 +1208,6 @@
       "variants.dark.colours.chat": "#1a1825",
       "variants.dark.colours.members": "#191724",
       "variants.dark.colours.stage": "#1a1825",
-      "variants.dark.colours.raised": "#252239",
       "variants.dark.colours.field": "#201d2f",
       "variants.dark.colours.sunken": "#171520",
       "variants.dark.colours.hover": "#2a2834",
@@ -1286,7 +1271,6 @@
       "variants.dark.colours.chat": "#232136",
       "variants.dark.colours.members": "#222034",
       "variants.dark.colours.stage": "#232136",
-      "variants.dark.colours.raised": "#383450",
       "variants.dark.colours.field": "#2e2a43",
       "variants.dark.colours.sunken": "#1e1c30",
       "variants.dark.colours.hover": "#323144",
