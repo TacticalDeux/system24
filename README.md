@@ -10,15 +10,22 @@ system24's own; the light palette is system24's light variant over a
 
 ## Install
 
-Point Yapfast at this folder from its theme picker, or validate the package
-first:
+To install, either fetch it straight from GitHub in the client — Settings →
+Themes → Add from URL with `https://github.com/TacticalDeux/system24` — or
+install a local copy:
+
+```
+yapfast theme install <folder>
+```
+
+To validate the package first:
 
 ```
 yapfast theme check <folder>
 ```
 
-`theme check` reads `theme.json` and every file it names (`fonts/`, `icons/`,
-`assets/`) and reports anything Yapfast would ignore.
+ `theme check` reads `theme.json` and every file it names (`fonts/`, `icons/`,
+ `assets/`) and reports anything Yapfast would ignore.
 
 ## Variants and light mode
 
