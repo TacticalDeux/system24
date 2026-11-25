@@ -2,7 +2,7 @@
   "theme_api": 1,
   "id": "io.github.tacticaldeux.system24",
   "name": "system24",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "system24: square-panel TUI theme with labels and DM Mono.",
   "authors": ["MisterPotato19"],
   "license": "MIT AND OFL-1.1",
@@ -377,7 +377,7 @@
   "effects": {},
   "art": {
     "glass": {
-      "surfaces": ["sidebar", "chat", "members", "account", "composer"],
+      "surfaces": ["sidebar", "chat", "members", "account", "composer", "profile-pane"],
       "blur": 0,
       "opacity": 0.8,
       "gap": 10,
@@ -421,8 +421,7 @@
           "colour": "#000000",
           "opacity": 0.05,
           "reserve": {
-            "top": 6,
-            "bottom": 6
+            "top": 6
           }
         }
       ],
@@ -550,6 +549,7 @@
       "font": "names",
       "size": 15,
       "inset": [8, 8],
+      "reserve": 6,
       "avatar": {
         "size": 32
       },
