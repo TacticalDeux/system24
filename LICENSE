@@ -28,8 +28,5 @@ SOFTWARE.
 
 Bundled fonts
 
-fonts/DMMono-Light.ttf and fonts/DMMono-Regular.ttf are DM Mono, licensed
+fonts/DMMono-Regular.ttf and fonts/DMMono-Medium.ttf are DM Mono, licensed
 under the SIL Open Font License 1.1. The full text is in fonts/OFL.txt.
-
-fonts/asciid.ttf is the asciid display face from refact0r/system24 and is
-redistributed with the theme unchanged.

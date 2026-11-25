@@ -1,82 +1,18 @@
-# system24 for Yapfast
+# System24
 
-A port of [refact0r/system24](https://github.com/refact0r/system24) — a
-customizable, TUI-style theme — to the Yapfast theme format (`theme_api` 1).
+A theme for [Yapfast](https://github.com/yapfast/yapfast).
 
-Square corners, 2px solid borders around every pane, DM Mono throughout,
-Loader art and panel labels. The dark palette is
-system24's own; the light palette is system24's light variant over a
-`catppuccin-latte` base.
+Square corners, 2px bordered flat panes with `NAV` / `MEMBERS` / `INPUT` labels and DM Mono throughout give the client system24's terminal look, with a blinking block caret and a faint grain over every surface — scanlines, CRT and the system24 or cats loader art are one option away. Eight flavours (System24, Nord, Tokyo Night, Catppuccin Mocha, Catppuccin Macchiato, Everforest, Rosé Pine, Rosé Pine Moon) come in dark and light variants that follow the app's appearance.
+
+![System24](previews/chat.webp)
+
+![System24, light](previews/chat-light.webp)
 
 ## Install
 
-To install, either fetch it straight from GitHub in the client — Settings →
-Themes → Add from URL with `https://github.com/TacticalDeux/system24` — or
-install a local copy:
+- In Yapfast, open **Settings > Appearance > Themes**, find **System24** in the marketplace and install it.
+- Or paste this repository's URL (`https://github.com/TacticalDeux/system24`) into **Settings > Appearance > Themes > Add from URL**.
 
-```
-yapfast theme install <folder>
-```
+## Credits
 
-To validate the package first:
-
-```
-yapfast theme check <folder>
-```
-
- `theme check` reads `theme.json` and every file it names (`fonts/`, `icons/`,
- `assets/`) and reports anything Yapfast would ignore.
-
-## Variants and light mode
-
-Both variants ship:
-
-- **dark** — `base: "yap"` with system24's 63-token palette.
-- **light** — `base: "catppuccin-latte"` with system24's own light overrides.
-
-Yapfast follows the app's appearance automatically and picks the matching
-variant, so no separate "auto" theme is needed.
-
-## Flavour
-
-The Flavour option offers system24's palette plus seven ported flavours:
-
-System24, Nord, Tokyo Night, Catppuccin Mocha, Catppuccin Macchiato,
-Everforest, Rosé Pine, Rosé Pine Moon.
-
-A Yapfast option holds at most eight choices, so system24's **vencord**
-flavour is not offered; its palette is otherwise identical to the system24
-base. Every flavour rewrites only the dark palette (`variants.dark.colours.*`),
-so light mode keeps the Catppuccin Latte palette.
-
-## Other options
-
-| Option                    | Default | What it does                                                       |
-| ------------------------- | ------- | ------------------------------------------------------------------ |
-| Screen art                | None    | Scanlines, grain, CRT (both), or the system24 / cats loaders       |
-| Panel labels              | on      | `NAV`, `MEMBERS`, `INPUT #channel` titles over the panes           |
-| Square corners            | on      | system24's unrounding; off restores rounded corners                |
-| Compact user panel        | off     | hides the account avatar                                           |
-| Remove avatar decorations | on      | square, undecorated avatars                                        |
-| Animations                | on      | blinking block caret and the channel-change fade                   |
-
-## What the port leaves out
-
-- **Spotify bar** — system24's now-playing bar is a custom plugin surface
-  Yapfast has no counterpart for, so it is not drawn.
-- **Custom cursors** — retired in Yapfast; the system cursor is used.
-- **Hidden tokens** — `chrome.hide` is empty in the theme itself. The
-  compact-panel option hides only `account-avatar`; system24's
-  `channel-icons` token has no verified Yapfast equivalent and is not used.
-- **CSS-only tokens** — system24 variables that paint things Yapfast does not
-  expose (window-level CSS details, plugin hooks) were dropped rather than
-  mapped onto unrelated tokens.
-
-## Fonts
-
-DM Mono ships in `fonts/DMMono-Regular.ttf` and `fonts/DMMono-Medium.ttf`
-under the SIL Open Font License 1.1; the full text is `fonts/OFL.txt`.
-
-## Licence
-
-MIT, as upstream — see `LICENSE`. Fonts are OFL, as noted above.
+A port of [system24](https://github.com/refact0r/system24) by [refact0r](https://github.com/refact0r), MIT. The icons are an original square-style set drawn for this port. Type is DM Mono (SIL OFL 1.1), bundled in `fonts/` alongside its licence at `fonts/OFL.txt`. Full terms are in [LICENSE](LICENSE) (MIT AND OFL-1.1); the font licence sits beside the fonts it covers.

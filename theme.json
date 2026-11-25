@@ -1,12 +1,17 @@
 {
   "theme_api": 1,
-  "id": "local.system24",
+  "id": "io.github.tacticaldeux.system24",
   "name": "system24",
   "version": "1.0.0",
   "description": "system24: square-panel TUI theme with labels and DM Mono.",
   "authors": ["MisterPotato19"],
   "license": "MIT AND OFL-1.1",
   "source": "https://github.com/TacticalDeux/system24",
+  "preview": [
+    "previews/chat.webp",
+    "previews/chat-light.webp",
+    "previews/settings.webp"
+  ],
   "colours": {
     "rail": "#121212",
     "sidebar": "#131313",
@@ -1392,7 +1397,7 @@
       "id": "screen-art",
       "label": "Screen art",
       "kind": "choice",
-      "default": "none",
+      "default": "grain",
       "description": "Subtle CRT texture, or the original loader art over the window.",
       "choices": [
         {
