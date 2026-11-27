@@ -288,10 +288,9 @@
     },
     "headings": {
       "font": "fonts/DMMono-Medium.ttf",
-      "size": 15,
       "header_size": 15,
       "title_size": 15,
-      "weight": 400
+      "weight": 500
     },
     "labels": {
       "font": "fonts/DMMono-Medium.ttf",
